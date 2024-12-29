@@ -1,0 +1,4 @@
+/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles/docs.dir
+/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles/cleaner.dir
+/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles/edit_cache.dir
+/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles/rebuild_cache.dir
