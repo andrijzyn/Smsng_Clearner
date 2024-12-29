@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cleaner.dir/main.cpp.o"
-  "CMakeFiles/cleaner.dir/main.cpp.o.d"
+  "CMakeFiles/cleaner.dir/src/main.cpp.o"
+  "CMakeFiles/cleaner.dir/src/main.cpp.o.d"
   "cleaner"
   "cleaner.pdb"
 )

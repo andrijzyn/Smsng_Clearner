@@ -72,28 +72,28 @@ include CMakeFiles/cleaner.dir/flags.make
 CMakeFiles/cleaner.dir/codegen:
 .PHONY : CMakeFiles/cleaner.dir/codegen
 
-CMakeFiles/cleaner.dir/main.cpp.o: CMakeFiles/cleaner.dir/flags.make
-CMakeFiles/cleaner.dir/main.cpp.o: /home/runner/work/Smsng_Clearner/Smsng_Clearner/main.cpp
-CMakeFiles/cleaner.dir/main.cpp.o: CMakeFiles/cleaner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cleaner.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleaner.dir/main.cpp.o -MF CMakeFiles/cleaner.dir/main.cpp.o.d -o CMakeFiles/cleaner.dir/main.cpp.o -c /home/runner/work/Smsng_Clearner/Smsng_Clearner/main.cpp
+CMakeFiles/cleaner.dir/src/main.cpp.o: CMakeFiles/cleaner.dir/flags.make
+CMakeFiles/cleaner.dir/src/main.cpp.o: /home/runner/work/Smsng_Clearner/Smsng_Clearner/src/main.cpp
+CMakeFiles/cleaner.dir/src/main.cpp.o: CMakeFiles/cleaner.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cleaner.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cleaner.dir/src/main.cpp.o -MF CMakeFiles/cleaner.dir/src/main.cpp.o.d -o CMakeFiles/cleaner.dir/src/main.cpp.o -c /home/runner/work/Smsng_Clearner/Smsng_Clearner/src/main.cpp
 
-CMakeFiles/cleaner.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cleaner.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/Smsng_Clearner/Smsng_Clearner/main.cpp > CMakeFiles/cleaner.dir/main.cpp.i
+CMakeFiles/cleaner.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cleaner.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/runner/work/Smsng_Clearner/Smsng_Clearner/src/main.cpp > CMakeFiles/cleaner.dir/src/main.cpp.i
 
-CMakeFiles/cleaner.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cleaner.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/Smsng_Clearner/Smsng_Clearner/main.cpp -o CMakeFiles/cleaner.dir/main.cpp.s
+CMakeFiles/cleaner.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cleaner.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/runner/work/Smsng_Clearner/Smsng_Clearner/src/main.cpp -o CMakeFiles/cleaner.dir/src/main.cpp.s
 
 # Object files for target cleaner
 cleaner_OBJECTS = \
-"CMakeFiles/cleaner.dir/main.cpp.o"
+"CMakeFiles/cleaner.dir/src/main.cpp.o"
 
 # External object files for target cleaner
 cleaner_EXTERNAL_OBJECTS =
 
-cleaner: CMakeFiles/cleaner.dir/main.cpp.o
+cleaner: CMakeFiles/cleaner.dir/src/main.cpp.o
 cleaner: CMakeFiles/cleaner.dir/build.make
 cleaner: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
 cleaner: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
