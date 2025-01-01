@@ -1,2 +1,3 @@
 # Hashes of file build rules.
-e2c9a87a1b27de14ca82609a692a4ad3 CMakeFiles/docs
+d427854913e7fd13ac2e253485274cc3 /home/runner/work/Smsng_Clearner/Smsng_Clearner/Doxyfile
+fd10c516a8cf5308be82847837e6b0e5 CMakeFiles/docs

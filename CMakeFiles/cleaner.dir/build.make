@@ -96,6 +96,8 @@ cleaner_EXTERNAL_OBJECTS =
 cleaner: CMakeFiles/cleaner.dir/src/main.cpp.o
 cleaner: CMakeFiles/cleaner.dir/build.make
 cleaner: /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2
+cleaner: /usr/lib/x86_64-linux-gnu/libcurses.so
+cleaner: /usr/lib/x86_64-linux-gnu/libform.so
 cleaner: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 cleaner: CMakeFiles/cleaner.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cleaner"

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "/home/runner/work/Smsng_Clearner/Smsng_Clearner/Doxyfile"
   "CMakeFiles/docs"
 )
 

@@ -63,10 +63,12 @@ CMAKE_BINARY_DIR = /home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/docs.dir/all
 all: CMakeFiles/cleaner.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
+codegen: CMakeFiles/docs.dir/codegen
 codegen: CMakeFiles/cleaner.dir/codegen
 .PHONY : codegen
 
@@ -86,12 +88,12 @@ clean: CMakeFiles/cleaner.dir/clean
 CMakeFiles/docs.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/docs.dir/build.make CMakeFiles/docs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num= "Built target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num=3,4 "Built target docs"
 .PHONY : CMakeFiles/docs.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/docs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/docs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles 0
 .PHONY : CMakeFiles/docs.dir/rule

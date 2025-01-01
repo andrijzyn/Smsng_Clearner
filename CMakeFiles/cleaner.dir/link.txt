@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/cleaner.dir/src/main.cpp.o -o cleaner  /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2 /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1 -Wl,--as-needed
+/usr/bin/c++ -g CMakeFiles/cleaner.dir/src/main.cpp.o -o cleaner  /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2 -lcurses /usr/lib/x86_64-linux-gnu/libform.so /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1 -Wl,--as-needed

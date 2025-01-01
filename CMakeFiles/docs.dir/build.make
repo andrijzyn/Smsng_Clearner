@@ -66,12 +66,17 @@ include CMakeFiles/docs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/docs.dir/progress.make
 
-CMakeFiles/docs:
-	cd /home/runner/work/Smsng_Clearner/Smsng_Clearner && doxygen
+CMakeFiles/docs: /home/runner/work/Smsng_Clearner/Smsng_Clearner/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building documentation"
+
+/home/runner/work/Smsng_Clearner/Smsng_Clearner/Doxyfile:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/runner/work/Smsng_Clearner/Smsng_Clearner/build_docs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Doxyfile"
+	doxygen -g /home/runner/work/Smsng_Clearner/Smsng_Clearner/Doxyfile
 
 CMakeFiles/docs.dir/codegen:
 .PHONY : CMakeFiles/docs.dir/codegen
 
+docs: /home/runner/work/Smsng_Clearner/Smsng_Clearner/Doxyfile
 docs: CMakeFiles/docs
 docs: CMakeFiles/docs.dir/build.make
 .PHONY : docs
